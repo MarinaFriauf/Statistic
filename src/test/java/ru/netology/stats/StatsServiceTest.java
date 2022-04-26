@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class StatsServiceTest {
 
     @Test
-        void shouldCalculateSum() {
+    void shouldCalculateSum() {
         StatsService service = new StatsService();
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         int expected = 180;

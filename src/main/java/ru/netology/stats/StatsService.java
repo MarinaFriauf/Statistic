@@ -40,11 +40,11 @@ public class StatsService {
 
     public int overAvg(long[] sales) {
         int counter = 0;
-            for (long sale : sales) {
+        for (long sale : sales) {
             if (sale > calcAvg(sales)) {
                 counter++;
             }
-                   }
+        }
         return counter;
     }
 
